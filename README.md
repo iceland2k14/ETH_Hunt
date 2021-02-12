@@ -3,12 +3,15 @@ Collison with Ethereum Address
 
 # Requirements
 Need to have a text file named "eth_address.txt" containing the ethereum address to collide with. 
-Python3 with libraries eth-hash, fastecdsa, bit
+Python3 with libraries eth-hash, bit, fastecdsa, gmpy2
 
 This script will run on python using multicpu. 
 
+Fastecdsa library dependency is replaced by gmpy2 in version 2
+
 # Note
-fastecdsa library installation on python, on windows, may require to have visual studio build tools from Microsoft
+fastecdsa library installation on python, on windows, may require to have visual studio build tools from Microsoft.
+version 2 with gmpy2 is faster.
 
 # Run
 On Python3 Terminal, run using the command
@@ -44,3 +47,5 @@ checked  200000  keys by Thread:  6 Current ETH:  0x41f8388eed0777916e775af9aa42
 checked  200000  keys by Thread:  1 Current ETH:  0x0e2d699bbec697351ceb05cc3cf1caf1b348b207
 checked  200000  keys by Thread:  5 Current ETH:  0x51ffcebf1c6384d4dfe2ce859520c80b3f467451
 ```
+
+Tips: bc1q39meky2mn5qjq704zz0nnkl0v7kj4uz6r529at
