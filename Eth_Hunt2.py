@@ -40,7 +40,7 @@ def hunt_ETH_address(cores='all'):  # pragma: no cover
     else:
         cores = 1
 
-    counter = Value('i')
+    counter = Value('L')
     match = Event()
     queue = Queue()
 #    manager = Manager()
